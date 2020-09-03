@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1599173986 source:/home/papercut/Documents/codeblocks/Seegson/main.cpp
+	<iostream>
+	"Dominios.h"
+
+1599175030 /home/papercut/Documents/codeblocks/Seegson/Dominios.h
+	<iostream>
+
+1599172416 /home/papercut/Documents/codeblocks/Seegson/Dominios.cpp
+	"Dominios.h"
+
+1599175030 source:/home/papercut/Documents/codeblocks/Seegson/Dominios.h
+	<iostream>
+
+1599175145 source:/home/papercut/Documents/codeblocks/Seegson/Dominios.cpp
+	"Dominios.h"
+	<iostream>
+
