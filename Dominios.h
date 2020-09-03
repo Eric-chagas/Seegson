@@ -8,7 +8,11 @@ class Aluno {
     private:
             string nome;
             int matricula;
+            bool validar_nome(string nome);
+            bool validar_matricula(int matricula);
     public:
+            Aluno(string nome, int matricula);
+
             void set_nome(string nome);
             void set_matricula(int matricula);
 

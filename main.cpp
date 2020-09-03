@@ -5,15 +5,19 @@ using namespace std;
 
 int main()
 {
-    Aluno a1;
-    string nome = "Bruce";
-    int matricula = 124;
+    Aluno a1("juls", 21);
 
-    //Armazenando os dados nos atributos da instancia a1.
-    a1.set_nome(nome);
-    a1.set_matricula(matricula);
+    //Cenario de sucesso.
+    a1.set_nome("RipleyAman");
+    a1.set_matricula(169);
 
-    //Acessando os dados.
+    cout << "nome: " << a1.get_nome() << endl;
+    cout << "matricula: " << a1.get_matricula() << endl;
+
+    //Cenario de falha.
+    a1.set_nome("RipleyAmanda");
+    a1.set_matricula(21);
+
     cout << "nome: " << a1.get_nome() << endl;
     cout << "matricula: " << a1.get_matricula() << endl;
 
