@@ -1,1 +1,3 @@
-# Seegson
+# Repo C++
+
+Usando o codeblocks.
