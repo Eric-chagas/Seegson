@@ -5,21 +5,31 @@ using namespace std;
 
 int main()
 {
-    Aluno a1("juls", 21);
+    Tela t1, t2;
 
-    //Cenario de sucesso.
-    a1.set_nome("RipleyAman");
-    a1.set_matricula(169);
+    Tela::set_cor(9000);
+    cout << "t1 cor: " << t1.get_cor() << endl;
+    cout << "t2 cor: " << t2.get_cor() << endl;
 
-    cout << "nome: " << a1.get_nome() << endl;
-    cout << "matricula: " << a1.get_matricula() << endl;
+    Tela::set_cor(78);
+    cout << "t1 cor: " << t1.get_cor() << endl;
+    cout << "t2 cor: " << t2.get_cor() << endl;
 
-    //Cenario de falha.
-    a1.set_nome("RipleyAmanda");
-    a1.set_matricula(21);
+    t1.set_coordenada_x(80);
+    t1.set_coordenada_y(97);
 
-    cout << "nome: " << a1.get_nome() << endl;
-    cout << "matricula: " << a1.get_matricula() << endl;
+    t2.set_coordenada_x(69);
+    t2.set_coordenada_y(82);
+
+    cout << endl;
+    cout << "t1 cor: " << t1.get_cor() << endl;
+    cout << "t1 coordenada_x: " << t1.get_coordenada_x() << endl;
+    cout << "t1 coordenada_y: " << t1.get_coordenada_y() << endl;
+
+    cout << "t2 cor: " << t2.get_cor() << endl;
+    cout << "t2 coordenada_x: " << t2.get_coordenada_x() << endl;
+    cout << "t2 coordenada_y: " << t2.get_coordenada_y() << endl;
+
 
     return 0;
 }
